@@ -406,6 +406,8 @@ img {
 .skills__list {
     row-gap: 1.5rem;
     padding-left: 2.7rem;
+    transition: .3s;
+    
 }
 
 .skills__icon,
@@ -432,8 +434,6 @@ img {
     color: var(--text-color-light);
 
 }
-
-
 
 .skills__title {
     display: flex;
@@ -508,15 +508,18 @@ img {
 .skills__open .skills__list{
     height: max-content;
     margin-bottom: var(--mb-2-5);
+    transition: .3s;
 }
 
 .skills__open .skills__arrow {
     transform: rotate(-180deg);
+    
 }
 
 .skills__close .skills__list {
     height: 0;
     overflow: hidden;
+    transition: .3s;
 }
 
 
