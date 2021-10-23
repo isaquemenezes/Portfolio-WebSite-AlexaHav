@@ -6,6 +6,9 @@
 
         <!--==================== UNICONS ====================-->
         <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"> -->
+
+        <!--***************** FONT AWESOME ****************-->
+        <!-- <link rel="stylesheet" href="./assets/css/font-awesome.min.css"> -->
         
         <!--==================== SWIPER CSS ====================-->
         <link rel="stylesheet" href="">
@@ -61,13 +64,15 @@
                         </li>
                     </ul>
                     
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                    <!-- <i class="uil uil-times nav__close" id="nav-close"></i> -->
+                    <span class="fa fa-close" id="nav-close"></span>
 
                 </div>
 
                 <div class="nav__btns">
                     <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
+                        <!-- <i class="uil uil-apps"></i> -->
+                        <span class="fa fa-th-large"></span>    
 
                     </div>
 
@@ -85,15 +90,16 @@
                         
                         <div class="home__social">
                             <a href="#" class="home__social-icon">
-                                <i class="uil uil-linkedin-alt"></i>
+                                <span class="fa fa-behance"></span>
                             </a>
 
                             <a href="#" class="home__social-icon">
-                                <i class="uil uil-dribbble"></i>
+                                <!-- <i class="uil uil-dribbble"></i> -->
+                                <span class="fa fa-linkedin"></span>
                             </a>
                             
                             <a href="#" class="home__social-icon">
-                                <i class="uil uil-github-alt"></i>
+                                <i class="fa fa-github-alt"></i>
                             </a>
                         </div>
 
@@ -124,7 +130,7 @@
                                 front end 
                             </p>
                             <a href="#contact" class="button button--flex">
-                                Contact Me <i class="uil uil-message button__icon"></i>
+                                Contact Me <span class="fa fa-send-o button__icon"></span>
                             </a>
                         </div>
 
@@ -134,7 +140,7 @@
                         <a href="" class="home__scroll-button button--flex">
                             <i class="uil uil-mouse-alt home__scroll-mouse"></i>
                             <span class="home__scroll-name">Scroll down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                            <i class="fa fa-arrow-down home__scroll-arrow"></i>
                         </a>
                     </div>
                 </div>
@@ -187,7 +193,179 @@
 
             <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical level</span>
 
+                <div class="skills__container container grid">
+                    <div>
+                        <!-- skills 1 -->
+                        <div class="skills__content skills__open">
+
+                            <div class="skills__header">
+                                <i class="fa fa-code skills__icon"></i>
+
+                                <div>   
+                                    <h1 class="skills__title-1">Front end Developer</h1>
+                                    <span class="skills__subtitle">More than 4 years</span>
+                                </div>
+
+                                <span class="fa fa-arrow-down skills__arrow"></span>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>                                    
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
+                                    </div>                                    
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">JavaSript</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js"></span>
+                                    </div>                                    
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__number">85%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__react"></span>
+                                    </div>                                    
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!-- skills 2 -->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <span class="fa fa-database  skills__icon"></span>
+
+                                <div>   
+                                    <h1 class="skills__title-1">Back end Developer</h1>
+                                    <span class="skills__subtitle">More than 2 years</span>
+                                </div>
+
+                                <span class="fa fa-arrow-down skills__arrow"></span>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">PHP</h3>
+                                        <span class="skills__number">88%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__php"></span>
+                                    </div>                                    
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Node js</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__node"></span>
+                                    </div>                                    
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">firebase</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__firebase"></span>
+                                    </div>                                    
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__number">55%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__python"></span>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>    
+
+                        <!-- skills 3 -->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <span class="fa fa-connectdevelop skills__icon"></span>
+
+                                <div>   
+                                    <h1 class="skills__title-1">Designer</h1>
+                                    <span class="skills__subtitle">More than 1 years</span>
+                                </div>
+
+                                <span class="fa fa-arrow-down skills__arrow"></span>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Figma</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__figma"></span>
+                                    </div>                                    
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Sketch</h3>
+                                        <span class="skills__number">85%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__sketch"></span>
+                                    </div>                                    
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <h3 class="skills__name">Photoshop</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__photoshop"></span>
+                                    </div>                                    
+                                </div>
+
+                               
+                            </div>
+                        </div> 
+
+                    </div>
+
+                   
+
+                </div>  
 
             </section>
 
